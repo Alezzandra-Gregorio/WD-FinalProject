@@ -36,6 +36,7 @@ html, body {
 
 .title {
     max-width: 60%;
+    animation: slideDown 1s;
 }
 
 .title:hover {
@@ -54,6 +55,7 @@ html, body {
     font-weight: bold;
     transition: background 0.3s, color 0.3s;
     display: inline-block;
+    animation: scale 1s;
 }
 
 .play-btn:hover {
@@ -107,5 +109,27 @@ audio {
     opacity: 0;
     z-index: 0;
   }
+}
+
+@keyframes slideDown {
+    0% {
+        transform: translateY(-10%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes scale {
+    0% {
+        transform:scale(.80);
+        opacity: 0;
+    }
+    100% {
+        transform:scale(1);
+        opacity: 1;
+    }
 }
 
