@@ -83,32 +83,32 @@ body {
 }
 
 .screen {
-  border: #0a24fe 2px solid;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  overflow-y: auto;
-  scroll-behavior: smooth;
-  padding-bottom: 3rem;
+    border: #0a24fe 2px solid;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    padding-bottom: 3rem;
 }
 
 table {
-  width: 100%;
-  border-collapse: separate;
-  border-spacing: 0 1rem;
-  padding: 2em;
-  color: white;
-  font-size: 0.9rem;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 1rem;
+    padding: 2em;
+    color: white;
+    font-size: 0.9rem;
 }
 
 td {
-  padding: 1rem;
-  vertical-align: top;
-  border: 1px solid #0a24fe;
-  background-color: rgba(10, 36, 254, 0.1);
-  font-family: Verdana, Geneva, Tahoma, sans-serif; 
-}
+    padding: 1rem;
+    vertical-align: top;
+    border: 1px solid #0a24fe;
+    background-color: rgba(10, 36, 254, 0.1);
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}   
 
 
 .intro-section {
@@ -199,12 +199,12 @@ td {
 }
 
 .images {
-  transition: transform 0.3s ease;
-  max-width: 20rem;
-  width: 45%;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
-  border: 0.2rem solid #0a24fe;
+    transition: transform 0.3s ease;
+    max-width: 20rem;
+    width: 45%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border: 0.2rem solid #0a24fe;
 }
 
 .images:hover {
