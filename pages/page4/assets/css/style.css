@@ -61,25 +61,11 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.screen {
-    border: #0a24fe 2px solid;
-    height: 100%;
-}
-
 .content h1 {
     font-size: 1.7rem;
     color: #f9ff00;
     background-color: #0a24fe;
     text-align: center;
-}
-
-.profile {
-    max-width: 25%;
-    max-width: 150px;
-    height: auto;
-    display: block;
-    margin: 1rem auto;
-    border: #0a24fe 2px solid;
 }
 
 .screen {
@@ -131,17 +117,6 @@ td {
     color: #f9ff00;
     background-color: #0a24fe;
     width: 100%;
-}
-
-.intro-text h2 {
-    padding-top: 5%;
-    font-size: 1rem;
-    letter-spacing: 2px;
-}
-
-.name {
-    color: #f9ff00;
-    font-size: 1.5rem;
 }
 
 .intro-text h4 {
